@@ -48,8 +48,6 @@ for (item of buttons) {
             screen.value = screenValue.substr(0, screenValue.length - val.length) + buttonText + str1 + val + str2;
             buttonText = Math.sin(deg);
             screenValue = buttonText;
-            // console.log(parseFloat(val));
-            // console.log(Math.sin(deg));
             val = '';
         } else if (buttonText == 'cos') {
             deg = parseFloat(val) * pi * 1.0 / 180;
